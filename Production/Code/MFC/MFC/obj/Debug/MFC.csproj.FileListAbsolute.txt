@@ -1,0 +1,44 @@
+D:\Portfolio\E4_PPE\Code\MFC\MFC\bin\Debug\MFC.exe.config
+D:\Portfolio\E4_PPE\Code\MFC\MFC\bin\Debug\MFC.exe
+D:\Portfolio\E4_PPE\Code\MFC\MFC\bin\Debug\MFC.pdb
+D:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.csprojAssemblyReference.cache
+D:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.MFCWind.resources
+D:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.Properties.Resources.resources
+D:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.csproj.GenerateResource.cache
+D:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.csproj.CoreCompileInputs.cache
+D:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.exe
+D:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.pdb
+D:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.FLogin.resources
+F:\Portfolio\E4_PPE\Code\MFC\MFC\bin\Debug\MFC.exe.config
+F:\Portfolio\E4_PPE\Code\MFC\MFC\bin\Debug\MFC.exe
+F:\Portfolio\E4_PPE\Code\MFC\MFC\bin\Debug\MFC.pdb
+F:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.csprojAssemblyReference.cache
+F:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.FLogin.resources
+F:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.MFCWind.resources
+F:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.Properties.Resources.resources
+F:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.csproj.GenerateResource.cache
+F:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.csproj.CoreCompileInputs.cache
+F:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.exe
+F:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.pdb
+E:\Portfolio\E4_PPE\Code\MFC\MFC\bin\Debug\MFC.exe.config
+E:\Portfolio\E4_PPE\Code\MFC\MFC\bin\Debug\MFC.exe
+E:\Portfolio\E4_PPE\Code\MFC\MFC\bin\Debug\MFC.pdb
+E:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.csprojAssemblyReference.cache
+E:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.FLogin.resources
+E:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.MFCWind.resources
+E:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.Properties.Resources.resources
+E:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.csproj.GenerateResource.cache
+E:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.csproj.CoreCompileInputs.cache
+E:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.exe
+E:\Portfolio\E4_PPE\Code\MFC\MFC\obj\Debug\MFC.pdb
+E:\Portfolio\E4_PPE\Projet GestionMatos\Production\Code\MFC\MFC\bin\Debug\MFC.exe.config
+E:\Portfolio\E4_PPE\Projet GestionMatos\Production\Code\MFC\MFC\bin\Debug\MFC.exe
+E:\Portfolio\E4_PPE\Projet GestionMatos\Production\Code\MFC\MFC\bin\Debug\MFC.pdb
+E:\Portfolio\E4_PPE\Projet GestionMatos\Production\Code\MFC\MFC\obj\Debug\MFC.csprojAssemblyReference.cache
+E:\Portfolio\E4_PPE\Projet GestionMatos\Production\Code\MFC\MFC\obj\Debug\MFC.FLogin.resources
+E:\Portfolio\E4_PPE\Projet GestionMatos\Production\Code\MFC\MFC\obj\Debug\MFC.MFCWind.resources
+E:\Portfolio\E4_PPE\Projet GestionMatos\Production\Code\MFC\MFC\obj\Debug\MFC.Properties.Resources.resources
+E:\Portfolio\E4_PPE\Projet GestionMatos\Production\Code\MFC\MFC\obj\Debug\MFC.csproj.GenerateResource.cache
+E:\Portfolio\E4_PPE\Projet GestionMatos\Production\Code\MFC\MFC\obj\Debug\MFC.csproj.CoreCompileInputs.cache
+E:\Portfolio\E4_PPE\Projet GestionMatos\Production\Code\MFC\MFC\obj\Debug\MFC.exe
+E:\Portfolio\E4_PPE\Projet GestionMatos\Production\Code\MFC\MFC\obj\Debug\MFC.pdb
