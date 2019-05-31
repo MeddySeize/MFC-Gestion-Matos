@@ -16,7 +16,7 @@ namespace MFC
         {
             InitializeComponent();
         }
-        string conn = ("Data Source=SILVERDELL\\SQLEXPRESS;Initial Catalog = MFC; Integrated Security = True");
+        string conn = ("Data Source=DESKTOP-877GOHO\\SQLEXPRESS;Initial Catalog = MFC; Integrated Security = True");
         private void tabNav_MouseClick(object sender, MouseEventArgs e)
         {
             
@@ -49,7 +49,40 @@ namespace MFC
 
         private void buttonAddMat_Click(object sender, EventArgs e)
         {
+            AddMatWind f0 = new AddMatWind();
+            f0.ShowDialog();
+        }
 
+        private void bAddInter2_Click(object sender, EventArgs e)
+        {
+            AddInterWind f1 = new AddInterWind();
+            f1.ShowDialog();
+        }
+
+        private void buttonAddInter1_Click(object sender, EventArgs e)
+        {
+            AddInterWind f1 = new AddInterWind();
+            f1.ShowDialog();
+        }
+
+        private void buttonDecon_Click(object sender, EventArgs e)
+        {
+            FLogin f2 = new FLogin();
+            f2.Show();
+            this.Close();
+           
+        }
+
+        private void BAjoutClient_Click(object sender, EventArgs e)
+        {
+            AddClientWind f3 = new AddClientWind();
+            f3.ShowDialog();
+        }
+
+        private void BAjoutSites_Click(object sender, EventArgs e)
+        {
+            AddSiteWind f4 = new AddSiteWind();
+            f4.ShowDialog();
         }
     }
 }
