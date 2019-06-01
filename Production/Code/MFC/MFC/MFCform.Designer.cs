@@ -182,18 +182,22 @@
             // 
             // GridInterCours
             // 
+            this.GridInterCours.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.GridInterCours.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.GridInterCours.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.GridInterCours.Location = new System.Drawing.Point(10, 252);
             this.GridInterCours.Margin = new System.Windows.Forms.Padding(2);
             this.GridInterCours.Name = "GridInterCours";
+            this.GridInterCours.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.GridInterCours.RowTemplate.Height = 24;
+            this.GridInterCours.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.GridInterCours.Size = new System.Drawing.Size(608, 134);
             this.GridInterCours.TabIndex = 3;
             // 
             // GridMTBF
             // 
             this.GridMTBF.AllowUserToAddRows = false;
+            this.GridMTBF.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.GridMTBF.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.GridMTBF.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.GridMTBF.Location = new System.Drawing.Point(10, 69);
@@ -223,21 +227,22 @@
             // bModifyInter
             // 
             this.bModifyInter.BackColor = System.Drawing.Color.White;
-            this.bModifyInter.Location = new System.Drawing.Point(589, 215);
+            this.bModifyInter.Location = new System.Drawing.Point(590, 75);
             this.bModifyInter.Margin = new System.Windows.Forms.Padding(2);
             this.bModifyInter.Name = "bModifyInter";
             this.bModifyInter.Size = new System.Drawing.Size(159, 66);
             this.bModifyInter.TabIndex = 9;
             this.bModifyInter.Text = "Modifier";
             this.bModifyInter.UseVisualStyleBackColor = false;
+            this.bModifyInter.Click += new System.EventHandler(this.bModifyInter_Click);
             // 
             // bFinishInter2
             // 
             this.bFinishInter2.BackColor = System.Drawing.Color.White;
-            this.bFinishInter2.Location = new System.Drawing.Point(589, 145);
+            this.bFinishInter2.Location = new System.Drawing.Point(590, 215);
             this.bFinishInter2.Margin = new System.Windows.Forms.Padding(2);
             this.bFinishInter2.Name = "bFinishInter2";
-            this.bFinishInter2.Size = new System.Drawing.Size(160, 66);
+            this.bFinishInter2.Size = new System.Drawing.Size(158, 66);
             this.bFinishInter2.TabIndex = 8;
             this.bFinishInter2.Text = "Terminer";
             this.bFinishInter2.UseVisualStyleBackColor = false;
@@ -257,16 +262,18 @@
             // bDelInter2
             // 
             this.bDelInter2.BackColor = System.Drawing.Color.White;
-            this.bDelInter2.Location = new System.Drawing.Point(589, 75);
+            this.bDelInter2.Location = new System.Drawing.Point(589, 145);
             this.bDelInter2.Margin = new System.Windows.Forms.Padding(2);
             this.bDelInter2.Name = "bDelInter2";
             this.bDelInter2.Size = new System.Drawing.Size(159, 66);
             this.bDelInter2.TabIndex = 6;
             this.bDelInter2.Text = "Supprimer";
             this.bDelInter2.UseVisualStyleBackColor = false;
+            this.bDelInter2.Click += new System.EventHandler(this.bDelInter2_Click);
             // 
             // DGInter
             // 
+            this.DGInter.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DGInter.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.DGInter.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGInter.Location = new System.Drawing.Point(6, 5);
@@ -328,6 +335,7 @@
             // DGMat
             // 
             this.DGMat.AllowUserToAddRows = false;
+            this.DGMat.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DGMat.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.DGMat.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGMat.Location = new System.Drawing.Point(4, 5);

@@ -52,7 +52,7 @@
             // 
             this.UText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UText.Location = new System.Drawing.Point(127, 8);
-            this.UText.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UText.Margin = new System.Windows.Forms.Padding(2);
             this.UText.Name = "UText";
             this.UText.Size = new System.Drawing.Size(200, 23);
             this.UText.TabIndex = 2;
@@ -61,7 +61,7 @@
             // 
             this.Ptext.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Ptext.Location = new System.Drawing.Point(127, 50);
-            this.Ptext.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Ptext.Margin = new System.Windows.Forms.Padding(2);
             this.Ptext.Name = "Ptext";
             this.Ptext.Size = new System.Drawing.Size(200, 23);
             this.Ptext.TabIndex = 4;
@@ -80,7 +80,7 @@
             // LoginBut
             // 
             this.LoginBut.Location = new System.Drawing.Point(127, 76);
-            this.LoginBut.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LoginBut.Margin = new System.Windows.Forms.Padding(2);
             this.LoginBut.Name = "LoginBut";
             this.LoginBut.Size = new System.Drawing.Size(88, 30);
             this.LoginBut.TabIndex = 6;
@@ -95,8 +95,8 @@
             this.panel1.Controls.Add(this.Ptext);
             this.panel1.Controls.Add(this.UText);
             this.panel1.Controls.Add(this.Ulabel);
-            this.panel1.Location = new System.Drawing.Point(-4, 150);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Location = new System.Drawing.Point(11, 11);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(337, 117);
             this.panel1.TabIndex = 9;
@@ -105,9 +105,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(332, 264);
+            this.ClientSize = new System.Drawing.Size(359, 138);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FLogin";
             this.Text = "Login";
             this.panel1.ResumeLayout(false);

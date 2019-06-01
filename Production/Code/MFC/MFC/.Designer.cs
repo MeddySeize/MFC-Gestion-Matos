@@ -29,10 +29,6 @@
         private void InitializeComponent()
         {
             this.LAddInterWind = new System.Windows.Forms.Label();
-            this.TBAddInter_Client = new System.Windows.Forms.TextBox();
-            this.TBAddInter_Site = new System.Windows.Forms.TextBox();
-            this.TBAddInter_Mat = new System.Windows.Forms.TextBox();
-            this.TBAddInter_TMat = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.DTPAddInter = new System.Windows.Forms.DateTimePicker();
             this.BAddInter_OK = new System.Windows.Forms.Button();
@@ -41,6 +37,10 @@
             this.LAddInter_Site = new System.Windows.Forms.Label();
             this.LAddInter_Mat = new System.Windows.Forms.Label();
             this.LAddInter_TMat = new System.Windows.Forms.Label();
+            this.CBAddInter_Client = new System.Windows.Forms.ComboBox();
+            this.CBAddInter_Site = new System.Windows.Forms.ComboBox();
+            this.CBAddInter_Matériel = new System.Windows.Forms.ComboBox();
+            this.CBAddInter_TMateriel = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // LAddInterWind
@@ -52,46 +52,6 @@
             this.LAddInterWind.Size = new System.Drawing.Size(216, 20);
             this.LAddInterWind.TabIndex = 1;
             this.LAddInterWind.Text = "Informations sur l\'intervention";
-            // 
-            // TBAddInter_Client
-            // 
-            this.TBAddInter_Client.AutoCompleteCustomSource.AddRange(new string[] {
-            "A",
-            "B",
-            "C",
-            "D",
-            "E"});
-            this.TBAddInter_Client.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append;
-            this.TBAddInter_Client.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.TBAddInter_Client.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TBAddInter_Client.Location = new System.Drawing.Point(20, 64);
-            this.TBAddInter_Client.Name = "TBAddInter_Client";
-            this.TBAddInter_Client.Size = new System.Drawing.Size(207, 24);
-            this.TBAddInter_Client.TabIndex = 2;
-            // 
-            // TBAddInter_Site
-            // 
-            this.TBAddInter_Site.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TBAddInter_Site.Location = new System.Drawing.Point(20, 107);
-            this.TBAddInter_Site.Name = "TBAddInter_Site";
-            this.TBAddInter_Site.Size = new System.Drawing.Size(207, 24);
-            this.TBAddInter_Site.TabIndex = 3;
-            // 
-            // TBAddInter_Mat
-            // 
-            this.TBAddInter_Mat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TBAddInter_Mat.Location = new System.Drawing.Point(20, 149);
-            this.TBAddInter_Mat.Name = "TBAddInter_Mat";
-            this.TBAddInter_Mat.Size = new System.Drawing.Size(207, 24);
-            this.TBAddInter_Mat.TabIndex = 4;
-            // 
-            // TBAddInter_TMat
-            // 
-            this.TBAddInter_TMat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TBAddInter_TMat.Location = new System.Drawing.Point(20, 198);
-            this.TBAddInter_TMat.Name = "TBAddInter_TMat";
-            this.TBAddInter_TMat.Size = new System.Drawing.Size(207, 24);
-            this.TBAddInter_TMat.TabIndex = 5;
             // 
             // label1
             // 
@@ -168,11 +128,47 @@
             this.LAddInter_TMat.TabIndex = 13;
             this.LAddInter_TMat.Text = "Type Matériel";
             // 
+            // CBAddInter_Client
+            // 
+            this.CBAddInter_Client.FormattingEnabled = true;
+            this.CBAddInter_Client.Location = new System.Drawing.Point(21, 67);
+            this.CBAddInter_Client.Name = "CBAddInter_Client";
+            this.CBAddInter_Client.Size = new System.Drawing.Size(206, 21);
+            this.CBAddInter_Client.TabIndex = 14;
+            // 
+            // CBAddInter_Site
+            // 
+            this.CBAddInter_Site.FormattingEnabled = true;
+            this.CBAddInter_Site.Location = new System.Drawing.Point(21, 107);
+            this.CBAddInter_Site.Name = "CBAddInter_Site";
+            this.CBAddInter_Site.Size = new System.Drawing.Size(206, 21);
+            this.CBAddInter_Site.TabIndex = 15;
+            // 
+            // CBAddInter_Matériel
+            // 
+            this.CBAddInter_Matériel.FormattingEnabled = true;
+            this.CBAddInter_Matériel.Location = new System.Drawing.Point(21, 150);
+            this.CBAddInter_Matériel.Name = "CBAddInter_Matériel";
+            this.CBAddInter_Matériel.Size = new System.Drawing.Size(206, 21);
+            this.CBAddInter_Matériel.TabIndex = 16;
+            // 
+            // CBAddInter_TMateriel
+            // 
+            this.CBAddInter_TMateriel.FormattingEnabled = true;
+            this.CBAddInter_TMateriel.Location = new System.Drawing.Point(21, 198);
+            this.CBAddInter_TMateriel.Name = "CBAddInter_TMateriel";
+            this.CBAddInter_TMateriel.Size = new System.Drawing.Size(206, 21);
+            this.CBAddInter_TMateriel.TabIndex = 17;
+            // 
             // AddInterWind
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(341, 359);
+            this.Controls.Add(this.CBAddInter_TMateriel);
+            this.Controls.Add(this.CBAddInter_Matériel);
+            this.Controls.Add(this.CBAddInter_Site);
+            this.Controls.Add(this.CBAddInter_Client);
             this.Controls.Add(this.LAddInter_TMat);
             this.Controls.Add(this.LAddInter_Mat);
             this.Controls.Add(this.LAddInter_Site);
@@ -181,10 +177,6 @@
             this.Controls.Add(this.BAddInter_OK);
             this.Controls.Add(this.DTPAddInter);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.TBAddInter_TMat);
-            this.Controls.Add(this.TBAddInter_Mat);
-            this.Controls.Add(this.TBAddInter_Site);
-            this.Controls.Add(this.TBAddInter_Client);
             this.Controls.Add(this.LAddInterWind);
             this.Name = "AddInterWind";
             this.Text = "Créer une Intervention";
@@ -195,10 +187,6 @@
 
         #endregion
         private System.Windows.Forms.Label LAddInterWind;
-        private System.Windows.Forms.TextBox TBAddInter_Client;
-        private System.Windows.Forms.TextBox TBAddInter_Site;
-        private System.Windows.Forms.TextBox TBAddInter_Mat;
-        private System.Windows.Forms.TextBox TBAddInter_TMat;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker DTPAddInter;
         private System.Windows.Forms.Button BAddInter_OK;
@@ -207,5 +195,9 @@
         private System.Windows.Forms.Label LAddInter_Site;
         private System.Windows.Forms.Label LAddInter_Mat;
         private System.Windows.Forms.Label LAddInter_TMat;
+        private System.Windows.Forms.ComboBox CBAddInter_Client;
+        private System.Windows.Forms.ComboBox CBAddInter_Site;
+        private System.Windows.Forms.ComboBox CBAddInter_Matériel;
+        private System.Windows.Forms.ComboBox CBAddInter_TMateriel;
     }
 }

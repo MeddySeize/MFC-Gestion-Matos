@@ -83,6 +83,12 @@
     <Compile Include="MFCform.Designer.cs">
       <DependentUpon>MFCform.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModifInter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifInter.Designer.cs">
+      <DependentUpon>ModifInter.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddClient.resx">
@@ -102,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MFCform.resx">
       <DependentUpon>MFCform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifInter.resx">
+      <DependentUpon>ModifInter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

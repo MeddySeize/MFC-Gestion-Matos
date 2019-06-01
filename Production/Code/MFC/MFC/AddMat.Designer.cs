@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TBAddMat_Materiel = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.TBAddMat_NumSerie = new System.Windows.Forms.TextBox();
+            this.CBAddMat_TMateriel = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.CBAddMat_MTBF = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.CBAddMat_Client = new System.Windows.Forms.ComboBox();
+            this.DTPAddMateriel = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.CBAddMat_Site = new System.Windows.Forms.ComboBox();
+            this.RTBAddMateriel_Desc = new System.Windows.Forms.RichTextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -58,13 +58,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nom du Matériel:";
             // 
-            // textBox1
+            // TBAddMat_Materiel
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(17, 48);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(187, 24);
-            this.textBox1.TabIndex = 1;
+            this.TBAddMat_Materiel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TBAddMat_Materiel.Location = new System.Drawing.Point(17, 48);
+            this.TBAddMat_Materiel.Name = "TBAddMat_Materiel";
+            this.TBAddMat_Materiel.Size = new System.Drawing.Size(187, 24);
+            this.TBAddMat_Materiel.TabIndex = 1;
             // 
             // label2
             // 
@@ -86,22 +86,22 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Type de Matériel:";
             // 
-            // textBox3
+            // TBAddMat_NumSerie
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(17, 108);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(187, 24);
-            this.textBox3.TabIndex = 5;
+            this.TBAddMat_NumSerie.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TBAddMat_NumSerie.Location = new System.Drawing.Point(17, 108);
+            this.TBAddMat_NumSerie.Name = "TBAddMat_NumSerie";
+            this.TBAddMat_NumSerie.Size = new System.Drawing.Size(187, 24);
+            this.TBAddMat_NumSerie.TabIndex = 5;
             // 
-            // comboBox1
+            // CBAddMat_TMateriel
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(221, 48);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(204, 24);
-            this.comboBox1.TabIndex = 6;
+            this.CBAddMat_TMateriel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CBAddMat_TMateriel.FormattingEnabled = true;
+            this.CBAddMat_TMateriel.Location = new System.Drawing.Point(221, 48);
+            this.CBAddMat_TMateriel.Name = "CBAddMat_TMateriel";
+            this.CBAddMat_TMateriel.Size = new System.Drawing.Size(204, 24);
+            this.CBAddMat_TMateriel.TabIndex = 6;
             // 
             // label4
             // 
@@ -113,9 +113,9 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "MTBF";
             // 
-            // comboBox2
+            // CBAddMat_MTBF
             // 
-            this.comboBox2.AutoCompleteCustomSource.AddRange(new string[] {
+            this.CBAddMat_MTBF.AutoCompleteCustomSource.AddRange(new string[] {
             "1",
             "2",
             "3",
@@ -146,14 +146,14 @@
             "28",
             "29",
             "30"});
-            this.comboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(221, 108);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(204, 24);
-            this.comboBox2.TabIndex = 9;
+            this.CBAddMat_MTBF.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.CBAddMat_MTBF.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.CBAddMat_MTBF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CBAddMat_MTBF.FormattingEnabled = true;
+            this.CBAddMat_MTBF.Location = new System.Drawing.Point(221, 108);
+            this.CBAddMat_MTBF.Name = "CBAddMat_MTBF";
+            this.CBAddMat_MTBF.Size = new System.Drawing.Size(204, 24);
+            this.CBAddMat_MTBF.TabIndex = 9;
             // 
             // label5
             // 
@@ -165,22 +165,24 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Client";
             // 
-            // comboBox3
+            // CBAddMat_Client
             // 
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(17, 168);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(187, 26);
-            this.comboBox3.TabIndex = 11;
+            this.CBAddMat_Client.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CBAddMat_Client.FormattingEnabled = true;
+            this.CBAddMat_Client.Location = new System.Drawing.Point(17, 168);
+            this.CBAddMat_Client.Name = "CBAddMat_Client";
+            this.CBAddMat_Client.Size = new System.Drawing.Size(187, 26);
+            this.CBAddMat_Client.TabIndex = 11;
             // 
-            // dateTimePicker1
+            // DTPAddMateriel
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(17, 231);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(236, 24);
-            this.dateTimePicker1.TabIndex = 12;
+            this.DTPAddMateriel.CustomFormat = "dd/MM/yyyy";
+            this.DTPAddMateriel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DTPAddMateriel.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.DTPAddMateriel.Location = new System.Drawing.Point(17, 231);
+            this.DTPAddMateriel.Name = "DTPAddMateriel";
+            this.DTPAddMateriel.Size = new System.Drawing.Size(236, 24);
+            this.DTPAddMateriel.TabIndex = 12;
             // 
             // label6
             // 
@@ -202,22 +204,22 @@
             this.label7.TabIndex = 14;
             this.label7.Text = "Site";
             // 
-            // comboBox4
+            // CBAddMat_Site
             // 
-            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(221, 168);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(204, 26);
-            this.comboBox4.TabIndex = 15;
+            this.CBAddMat_Site.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CBAddMat_Site.FormattingEnabled = true;
+            this.CBAddMat_Site.Location = new System.Drawing.Point(221, 168);
+            this.CBAddMat_Site.Name = "CBAddMat_Site";
+            this.CBAddMat_Site.Size = new System.Drawing.Size(204, 26);
+            this.CBAddMat_Site.TabIndex = 15;
             // 
-            // richTextBox1
+            // RTBAddMateriel_Desc
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(17, 296);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(408, 131);
-            this.richTextBox1.TabIndex = 16;
-            this.richTextBox1.Text = "";
+            this.RTBAddMateriel_Desc.Location = new System.Drawing.Point(17, 296);
+            this.RTBAddMateriel_Desc.Name = "RTBAddMateriel_Desc";
+            this.RTBAddMateriel_Desc.Size = new System.Drawing.Size(408, 131);
+            this.RTBAddMateriel_Desc.TabIndex = 16;
+            this.RTBAddMateriel_Desc.Text = "";
             // 
             // label8
             // 
@@ -237,6 +239,7 @@
             this.button1.TabIndex = 18;
             this.button1.Text = "OK";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -256,20 +259,20 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.RTBAddMateriel_Desc);
+            this.Controls.Add(this.CBAddMat_Site);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.DTPAddMateriel);
+            this.Controls.Add(this.CBAddMat_Client);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.CBAddMat_MTBF);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.CBAddMat_TMateriel);
+            this.Controls.Add(this.TBAddMat_NumSerie);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TBAddMat_Materiel);
             this.Controls.Add(this.label1);
             this.Name = "AddMatWind";
             this.Text = "Ajouter un Matériel";
@@ -281,20 +284,20 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TBAddMat_Materiel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox TBAddMat_NumSerie;
+        private System.Windows.Forms.ComboBox CBAddMat_TMateriel;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox CBAddMat_MTBF;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.ComboBox CBAddMat_Client;
+        private System.Windows.Forms.DateTimePicker DTPAddMateriel;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.ComboBox CBAddMat_Site;
+        private System.Windows.Forms.RichTextBox RTBAddMateriel_Desc;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
