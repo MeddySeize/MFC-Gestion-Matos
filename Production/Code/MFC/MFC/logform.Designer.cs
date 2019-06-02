@@ -65,6 +65,7 @@
             this.Ptext.Name = "Ptext";
             this.Ptext.Size = new System.Drawing.Size(200, 23);
             this.Ptext.TabIndex = 4;
+            this.Ptext.UseSystemPasswordChar = true;
             // 
             // Plabel
             // 
