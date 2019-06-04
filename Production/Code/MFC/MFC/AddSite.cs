@@ -22,7 +22,7 @@ namespace MFC
         {
             this.Close();
         }
-        string conn = ("Data Source=DESKTOP-877GOHO\\SQLEXPRESS;Initial Catalog = MFC; Integrated Security = True");
+        string conn = ("Data Source=.\\SQLEXPRESS;Initial Catalog = MFC; Integrated Security = True");
         private void button1_Click(object sender, EventArgs e)
         {
             String Strcom = " INSERT INTO dbo.Site(Nom, Adresse, CP, Ville) VALUES(@Nom, @Adresse, @CP, @Ville);";

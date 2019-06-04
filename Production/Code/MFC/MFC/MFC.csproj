@@ -71,6 +71,31 @@
     <Compile Include="AddSite.Designer.cs">
       <DependentUpon>AddSite.cs</DependentUpon>
     </Compile>
+    <Compile Include="DsetClient.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsetClient.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsetInter.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsetInter.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsetMat.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsetMat.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsetSite.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsetSite.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DsetTmat.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsetTmat.xsd</DependentUpon>
+    </Compile>
     <Compile Include="logform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,11 +108,29 @@
     <Compile Include="MFCform.Designer.cs">
       <DependentUpon>MFCform.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModifClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifClient.Designer.cs">
+      <DependentUpon>ModifClient.cs</DependentUpon>
+    </Compile>
     <Compile Include="ModifInter.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ModifInter.Designer.cs">
       <DependentUpon>ModifInter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifMat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifMat.Designer.cs">
+      <DependentUpon>ModifMat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifSite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifSite.Designer.cs">
+      <DependentUpon>ModifSite.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -109,8 +152,17 @@
     <EmbeddedResource Include="MFCform.resx">
       <DependentUpon>MFCform.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ModifClient.resx">
+      <DependentUpon>ModifClient.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ModifInter.resx">
       <DependentUpon>ModifInter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifMat.resx">
+      <DependentUpon>ModifMat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifSite.resx">
+      <DependentUpon>ModifSite.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -121,6 +173,61 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="DsetClient.xsc">
+      <DependentUpon>DsetClient.xsd</DependentUpon>
+    </None>
+    <None Include="DsetClient.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsetClient.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DsetClient.xss">
+      <DependentUpon>DsetClient.xsd</DependentUpon>
+    </None>
+    <None Include="DsetInter.xsc">
+      <DependentUpon>DsetInter.xsd</DependentUpon>
+    </None>
+    <None Include="DsetInter.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsetInter.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DsetInter.xss">
+      <DependentUpon>DsetInter.xsd</DependentUpon>
+    </None>
+    <None Include="DsetMat.xsc">
+      <DependentUpon>DsetMat.xsd</DependentUpon>
+    </None>
+    <None Include="DsetMat.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsetMat.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DsetMat.xss">
+      <DependentUpon>DsetMat.xsd</DependentUpon>
+    </None>
+    <None Include="DsetSite.xsc">
+      <DependentUpon>DsetSite.xsd</DependentUpon>
+    </None>
+    <None Include="DsetSite.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsetSite.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DsetSite.xss">
+      <DependentUpon>DsetSite.xsd</DependentUpon>
+    </None>
+    <None Include="DsetTmat.xsc">
+      <DependentUpon>DsetTmat.xsd</DependentUpon>
+    </None>
+    <None Include="DsetTmat.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsetTmat.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DsetTmat.xss">
+      <DependentUpon>DsetTmat.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

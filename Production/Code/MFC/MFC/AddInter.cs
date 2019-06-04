@@ -23,7 +23,7 @@ namespace MFC
         
 
            
-        string conn = ("Data Source=DESKTOP-877GOHO\\SQLEXPRESS;Initial Catalog = MFC; Integrated Security = True");
+        string conn = ("Data Source=.\\SQLEXPRESS;Initial Catalog = MFC; Integrated Security = True");
 
         void FillComboClient()
         {
@@ -156,5 +156,7 @@ namespace MFC
                 MessageBox.Show(ex.Message);
             }
         }
+
+   
     }
 }

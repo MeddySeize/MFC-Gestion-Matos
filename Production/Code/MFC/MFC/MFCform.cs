@@ -17,22 +17,22 @@ namespace MFC
             InitializeComponent();
         }
         //Informations du Serveur de base de donnée
-        string conn = ("Data Source=DESKTOP-877GOHO\\SQLEXPRESS;Initial Catalog = MFC; Integrated Security = True");
+        string conn = ("Data Source=.\\SQLEXPRESS;Initial Catalog = MFC; Integrated Security = True");
         private void tabNav_MouseClick(object sender, MouseEventArgs e)
         {
             
         }
 
-        private void MFCWind_Load(object sender, EventArgs e)
+        public void MFCWind_Load(object sender, EventArgs e)
         {
             using (SqlConnection SQLcon = new SqlConnection(conn))
             {
                 //Permet d'afficher les tables de la base de donnée sur les Grille de Donnée 
                 SQLcon.Open();
-                SqlDataAdapter daptCli = new SqlDataAdapter("SELECT Client, Telephone, Email FROM Client", SQLcon);
+                SqlDataAdapter daptCli = new SqlDataAdapter("SELECT * FROM Client", SQLcon);
                 DataTable dtablClient = new DataTable();
                 daptCli.Fill(dtablClient);
-                SqlDataAdapter daptSite = new SqlDataAdapter("SELECT Nom, Adresse, CP, Ville FROM Site", SQLcon);
+                SqlDataAdapter daptSite = new SqlDataAdapter("SELECT * FROM Site", SQLcon);
                 DataTable dtablSite = new DataTable();
                 daptSite.Fill(dtablSite);
                 SqlDataAdapter daptInter = new SqlDataAdapter("SELECT * FROM Intervention", SQLcon);
@@ -100,20 +100,42 @@ namespace MFC
 
         private void bModifyInter_Click(object sender, EventArgs e)
         {
-            ModifInterWind f5 = new ModifInterWind();
+            ModifInterWind f5 = new ModifInterWind((int)DGInter.SelectedRows[0].Cells[0].Value);
             f5.ShowDialog();
-            //Selection des Cellule du Datagrid
-            f5.CBModifInter_Client.Text = DGInter.CurrentRow.Cells[4].Value.ToString();
-            f5.CBModifInter_Site.Text = DGInter.CurrentRow.Cells[7].Value.ToString();
-            f5.CBModifInter_Matériel.Text = DGInter.CurrentRow.Cells[5].Value.ToString();
-            f5.CBModifInter_TMateriel.Text = DGInter.CurrentRow.Cells[6].Value.ToString();
         }
 
         private void bDelInter2_Click(object sender, EventArgs e)
         {
             //Suppression d'une ligne du DataGrid
-            int rowIndex = DGInter.CurrentCell.RowIndex;
-            DGInter.Rows.RemoveAt(rowIndex);
+            
+
+            
+        }
+
+        private void buttonModMat_Click(object sender, EventArgs e)
+        {
+            ModifMatWind f6 = new ModifMatWind((int)DGMat.SelectedRows[0].Cells[0].Value);
+            f6.ShowDialog();
+
+        }
+
+        private void BModifClient_Click(object sender, EventArgs e)
+        {
+            ModifClientWind f7 = new ModifClientWind((int)DGClient.SelectedRows[0].Cells[0].Value);
+            f7.ShowDialog();
+            
+        }
+
+        private void BModifSites_Click(object sender, EventArgs e)
+        {
+            ModifSiteWind f7 = new ModifSiteWind((int)DGSites.SelectedRows[0].Cells[0].Value);
+            f7.ShowDialog();
+        }
+
+        private void BRfreshDG_Click(object sender, EventArgs e)
+        {
+            DGClient.Refresh();
+
         }
     }
 }

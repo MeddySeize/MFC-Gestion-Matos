@@ -18,7 +18,7 @@ namespace MFC
             InitializeComponent();
         }
         //On se connecte sur le serveur et on indique la BDD
-        string conn = ("Data Source=DESKTOP-877GOHO\\SQLEXPRESS;Initial Catalog = MFC; Integrated Security = True");
+        string conn = ("Data Source=.\\SQLEXPRESS;Initial Catalog = MFC; Integrated Security = True");
 
         private void LoginBut_Click(object sender, EventArgs e)
         {

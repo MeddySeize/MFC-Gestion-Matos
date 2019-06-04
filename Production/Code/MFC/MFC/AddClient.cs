@@ -17,7 +17,7 @@ namespace MFC
         {
             InitializeComponent();
         }
-        string conn = ("Data Source=DESKTOP-877GOHO\\SQLEXPRESS;Initial Catalog = MFC; Integrated Security = True");
+        string conn = ("Data Source=.\\SQLEXPRESS;Initial Catalog = MFC; Integrated Security = True");
         private void BAddClient_Annuler_Click(object sender, EventArgs e)
         {
             this.Close();
